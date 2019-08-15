@@ -66,5 +66,5 @@ enable `{{ .Content }}` in `layouts/_default/list.html`
 
 => 
 ```
-Error: Error building site: failed to render pages: render of "section" failed: "/home/grossnik/tmp/work/hugo-bug/layouts/_default/list.html:9:3": execute of template failed: template: _default/list.html:9:3: executing "_default/list.html" at <.Content>: error calling Content: runtime error: invalid memory address or nil pointer dereference
+Error: Error building site: failed to render pages: render of "section" failed: "/home/grossnik/tmp/work/tmp-hugo-0.57.0-issue-draft/layouts/_default/list.html:10:3": execute of template failed: template: _default/list.html:10:3: executing "_default/list.html" at <.Content>: error calling Content: runtime error: invalid memory address or nil pointer dereference
 ```
