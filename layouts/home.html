@@ -1,0 +1,10 @@
+{{- partial "head.html" . }}
+<pre>
+layouts/home.html
+.Name:         {{.Name}}
+.Draft:        {{.Draft}}
+.Permalink:    {{.Permalink}}
+.Hugo.Version: {{.Hugo.Version}}
+</pre>
+{{.Content}}
+{{- partial "footer.html" . }}
